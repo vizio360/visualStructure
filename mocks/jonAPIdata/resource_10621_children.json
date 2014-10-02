@@ -1,0 +1,937 @@
+[
+  {
+    "resourceName": "/",
+    "resourceId": 10635,
+    "typeName": "File System",
+    "typeId": 10011,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10635"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10635"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10635/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10635/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10635/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10635/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10635"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "/dev/mapper/VolGroup00-LogVol_root: /"
+  },
+  {
+    "resourceName": "/boot",
+    "resourceId": 10641,
+    "typeName": "File System",
+    "typeId": 10011,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10641"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10641"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10641/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10641/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10641/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10641/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10641"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "/dev/sda1: /boot"
+  },
+  {
+    "resourceName": "Bundle Handler - Ant",
+    "resourceId": 10643,
+    "typeName": "Ant Bundle Handler",
+    "typeId": 10166,
+    "pluginName": "AntBundlePlugin",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10643"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10643"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10643/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10643/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10643/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10643/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10643"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "For provisioning bundles with Ant script recipes"
+  },
+  {
+    "resourceName": "CPU 0",
+    "resourceId": 10642,
+    "typeName": "CPU",
+    "typeId": 10013,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10642"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10642"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10642/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10642/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10642/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10642/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10642"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "Intel Xeon"
+  },
+  {
+    "resourceName": "CPU 1",
+    "resourceId": 21101,
+    "typeName": "CPU",
+    "typeId": 10013,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=21101"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/21101"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/21101/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/21101/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/21101/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/21101/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/21101"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "Intel Xeon"
+  },
+  {
+    "resourceName": "/dev/shm",
+    "resourceId": 14563,
+    "typeName": "File System",
+    "typeId": 10011,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=14563"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/14563"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/14563/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/14563/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/14563/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/14563/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/14563"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "tmpfs: /dev/shm"
+  },
+  {
+    "resourceName": "eth0",
+    "resourceId": 10632,
+    "typeName": "Network Adapter",
+    "typeId": 10012,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10632"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10632"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10632/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10632/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10632/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10632/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10632"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "00:50:56:9B:00:3A"
+  },
+  {
+    "resourceName": "lo",
+    "resourceId": 10631,
+    "typeName": "Network Adapter",
+    "typeId": 10012,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10631"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10631"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10631/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10631/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10631/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10631/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10631"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "00:00:00:00:00:00"
+  },
+  {
+    "resourceName": "RHQ Agent",
+    "resourceId": 10622,
+    "typeName": "RHQ Agent",
+    "typeId": 10023,
+    "pluginName": "RHQAgent",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10622"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10622"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10622/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10622/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10622/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10622/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10622"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "RHQ Management Agent"
+  },
+  {
+    "resourceName": "svr-app-soa01.onecamden.net - production",
+    "resourceId": 10671,
+    "typeName": "JBossAS Server",
+    "typeId": 10038,
+    "pluginName": "JBossAS5",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10671"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10671"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10671/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10671/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10671/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10671/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10671"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "JBoss Enterprise SOA Platform"
+  },
+  {
+    "resourceName": "/tmp",
+    "resourceId": 10639,
+    "typeName": "File System",
+    "typeId": 10011,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10639"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10639"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10639/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10639/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10639/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10639/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10639"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "/dev/mapper/VolGroup00-LogVol_tmp: /tmp"
+  },
+  {
+    "resourceName": "/usr",
+    "resourceId": 10633,
+    "typeName": "File System",
+    "typeId": 10011,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10633"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10633"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10633/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10633/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10633/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10633/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10633"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "/dev/mapper/VolGroup00-LogVol_usr: /usr"
+  },
+  {
+    "resourceName": "/usr/local",
+    "resourceId": 10637,
+    "typeName": "File System",
+    "typeId": 10011,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10637"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10637"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10637/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10637/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10637/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10637/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10637"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "/dev/mapper/VolGroup00-LogVol_usr_local: /usr/local"
+  },
+  {
+    "resourceName": "/var",
+    "resourceId": 10634,
+    "typeName": "File System",
+    "typeId": 10011,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10634"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10634"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10634/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10634/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10634/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10634/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10634"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "/dev/mapper/VolGroup00-LogVol_var: /var"
+  },
+  {
+    "resourceName": "/var/log",
+    "resourceId": 10638,
+    "typeName": "File System",
+    "typeId": 10011,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10638"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10638"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10638/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10638/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10638/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10638/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10638"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "/dev/mapper/VolGroup00-LogVol_var_log: /var/log"
+  },
+  {
+    "resourceName": "/var/log/audit",
+    "resourceId": 10636,
+    "typeName": "File System",
+    "typeId": 10011,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10636"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10636"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10636/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10636/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10636/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10636/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10636"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "/dev/mapper/VolGroup00-LogVol_var_log_audit: /var/log/audit"
+  },
+  {
+    "resourceName": "/var/tmp",
+    "resourceId": 10640,
+    "typeName": "File System",
+    "typeId": 10011,
+    "pluginName": "Platforms",
+    "parentId": 10621,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10640"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10640"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10640/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10640/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10640/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10640/alerts"
+        }
+      },
+      {
+        "parent": {
+          "href": "http://localhost:7080/rest/resource/10621/"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10640"
+        }
+      }
+    ],
+    "ancestry": "10003_:_10621_:_svr-app-soa01.onecamden.net",
+    "location": null,
+    "description": "/dev/mapper/VolGroup00-LogVol_var_tmp: /var/tmp"
+  }
+]

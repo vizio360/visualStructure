@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "express": "^4.9.5",
+    "http-auth": "^2.2.0",
     "karma": "~0.12.8",
     "karma-chrome-launcher": "~0.1.0",
     "karma-coffee-preprocessor": "~0.1.0",

@@ -1,19 +1,22 @@
-navbar = require 'views/navbar'
-user = require 'models/user'
+login = require 'views/login'
 
 Router = Backbone.Router.extend
 
   initialize: () ->
 
-    @navbar = new navbar
+  loginPage: ->
+    @login = new login
       el: $('.root-view')
-      model: new user
       router: @
+    @login.on "success", =>
+      @navigate "home"
+    @login.render()
+
+  home: ->
+    console.log "home"
 
   routes:
-    ''            : 'menu_1'
-    'menu_1'      : 'menu_1'
-    'menu_2'      : 'menu_2'
-    'menu_3'      : 'menu_3'
+    ''            : 'loginPage'
+    'menu_1'      : 'home'
 
 module.exports = Router

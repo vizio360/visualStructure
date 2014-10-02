@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "public/app.js",
   "dependencies": {
-    "bootstrap": "~3.0.0",
+    "bootstrap": "3.2.0",
     "auto-reload-brunch": "~1.6.5",
     "backbone": "~1.0.0",
     "underscore": "~1.5.1",

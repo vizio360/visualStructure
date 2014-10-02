@@ -1,0 +1,32 @@
+{
+  "id": 10931,
+  "name": "QA",
+  "resourceTypeId": null,
+  "recursive": true,
+  "category": "COMPATIBLE",
+  "dynaGroupDefinitionId": 0,
+  "explicitCount": 2,
+  "implicitCount": 2919,
+  "links": [
+    {
+      "edit": {
+        "href": "http://localhost:7080/rest/group/10931"
+      }
+    },
+    {
+      "self": {
+        "href": "http://localhost:7080/rest/group/10931"
+      }
+    },
+    {
+      "metricDefinitions": {
+        "href": "http://localhost:7080/rest/group/10931/metricDefinitions"
+      }
+    },
+    {
+      "coregui": {
+        "href": "http://localhost:7080/coregui/#ResourceGroup/10931"
+      }
+    }
+  ]
+}

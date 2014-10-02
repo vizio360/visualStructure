@@ -1,0 +1,50 @@
+{
+  "resourceName": "svr-app-soa01.onecamden.net",
+  "resourceId": 10621,
+  "typeName": "Linux",
+  "typeId": 10003,
+  "pluginName": "Platforms",
+  "parentId": 0,
+  "status": "COMMITTED",
+  "availability": "UP",
+  "links": [
+    {
+      "operationDefinitions": {
+        "href": "http://localhost:7080/rest/operation/definitions?resourceId=10621"
+      }
+    },
+    {
+      "self": {
+        "href": "http://localhost:7080/rest/resource/10621"
+      }
+    },
+    {
+      "schedules": {
+        "href": "http://localhost:7080/rest/resource/10621/schedules"
+      }
+    },
+    {
+      "availability": {
+        "href": "http://localhost:7080/rest/resource/10621/availability"
+      }
+    },
+    {
+      "children": {
+        "href": "http://localhost:7080/rest/resource/10621/children"
+      }
+    },
+    {
+      "alerts": {
+        "href": "http://localhost:7080/rest/resource/10621/alerts"
+      }
+    },
+    {
+      "coregui": {
+        "href": "http://localhost:7080/coregui/#Resource/10621"
+      }
+    }
+  ],
+  "ancestry": null,
+  "location": null,
+  "description": "Linux Operating System"
+}

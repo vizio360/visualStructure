@@ -1,0 +1,20 @@
+.container
+  .page-header.text-center
+    h1 JON-V
+  .row
+    .col-md-6.col-md-offset-3
+      .panel.panel-default
+        .panel-body
+          form(role='form')
+            .form-group: p.hidden.alert.alert-danger(id='errorMessage', role='alert')
+            .form-group.login-email: input.form-control(type='text', placeholder='Username')
+            .form-group.login-password: input.form-control(type='password', placeholder='Password')
+            button.btn.btn-success(type='submit') Sign-in
+.modal.fade(role="dialog", id="signinDialog", aria-hidden="true", data-backdrop="static")
+  .modal-dialog.modal-sm
+    .modal-content
+      .modal-header.text-center
+        h4 signing in ...
+      .modal-body
+        .progress
+          .progress-bar.progress-bar-striped.active(style="width: 100%;")

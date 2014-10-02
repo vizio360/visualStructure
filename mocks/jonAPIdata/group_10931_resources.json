@@ -1,0 +1,102 @@
+[
+  {
+    "resourceName": "QA - ESB",
+    "resourceId": 15601,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=15601"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/15601"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/15601/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/15601/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/15601/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/15601/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/15601"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": "CDC - Cressy Road",
+    "description": "Test Linux Operating System"
+  },
+  {
+    "resourceName": "svr-lp6-stag01.onecamden.net",
+    "resourceId": 12731,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12731"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12731"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12731/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12731/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12731/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12731/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12731"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  }
+]

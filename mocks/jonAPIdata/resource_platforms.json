@@ -1,0 +1,702 @@
+[
+  {
+    "resourceName": "svr-app-soa01.onecamden.net",
+    "resourceId": 10621,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=10621"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/10621"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/10621/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/10621/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/10621/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/10621/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/10621"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "svr-app-soa02.onecamden.net",
+    "resourceId": 12471,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12471"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12471"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12471/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12471/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12471/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12471/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12471"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "svr-web-soa01.onecamden.net",
+    "resourceId": 12681,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12681"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12681"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12681/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12681/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12681/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12681/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12681"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "svr-db-soa01.onecamden.net",
+    "resourceId": 12691,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12691"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12691"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12691/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12691/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12691/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12691/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12691"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "svr-lp6-prod01.onecamden.net",
+    "resourceId": 12708,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12708"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12708"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12708/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12708/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12708/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12708/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12708"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "svr-lp6-prod02.onecamden.net",
+    "resourceId": 12721,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12721"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12721"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12721/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12721/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12721/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12721/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12721"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "svr-lp6-stag02.lbcamden.net",
+    "resourceId": 12725,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12725"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12725"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12725/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12725/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12725/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12725/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12725"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "svr-lp6-stag01.onecamden.net",
+    "resourceId": 12731,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12731"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12731"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12731/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12731/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12731/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12731/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12731"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "lab-web-soa01.onecamden.net",
+    "resourceId": 12741,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12741"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12741"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12741/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12741/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12741/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12741/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12741"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "lab-app-soa01.onecamden.net",
+    "resourceId": 12751,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12751"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12751"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12751/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12751/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12751/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12751/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12751"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "lab-app-soa02.onecamden.net",
+    "resourceId": 12761,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12761"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12761"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12761/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12761/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12761/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12761/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12761"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "lab-db-soa01.onecamden.net",
+    "resourceId": 12771,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=12771"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/12771"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/12771/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/12771/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/12771/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/12771/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/12771"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "svr-app-soadev02",
+    "resourceId": 15311,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "DOWN",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=15311"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/15311"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/15311/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/15311/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/15311/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/15311/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/15311"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": null,
+    "description": "Linux Operating System"
+  },
+  {
+    "resourceName": "QA - ESB",
+    "resourceId": 15601,
+    "typeName": "Linux",
+    "typeId": 10003,
+    "pluginName": "Platforms",
+    "parentId": 0,
+    "status": "COMMITTED",
+    "availability": "UP",
+    "links": [
+      {
+        "operationDefinitions": {
+          "href": "http://localhost:7080/rest/operation/definitions?resourceId=15601"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/resource/15601"
+        }
+      },
+      {
+        "schedules": {
+          "href": "http://localhost:7080/rest/resource/15601/schedules"
+        }
+      },
+      {
+        "availability": {
+          "href": "http://localhost:7080/rest/resource/15601/availability"
+        }
+      },
+      {
+        "children": {
+          "href": "http://localhost:7080/rest/resource/15601/children"
+        }
+      },
+      {
+        "alerts": {
+          "href": "http://localhost:7080/rest/resource/15601/alerts"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#Resource/15601"
+        }
+      }
+    ],
+    "ancestry": null,
+    "location": "CDC - Cressy Road",
+    "description": "Test Linux Operating System"
+  }
+]
