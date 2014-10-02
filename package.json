@@ -22,16 +22,17 @@
     "bower": "~1.2.6"
   },
   "devDependencies": {
-    "karma-script-launcher": "~0.1.0",
+    "express": "^4.9.5",
+    "karma": "~0.12.8",
     "karma-chrome-launcher": "~0.1.0",
+    "karma-coffee-preprocessor": "~0.1.0",
     "karma-firefox-launcher": "~0.1.0",
     "karma-html2js-preprocessor": "~0.1.0",
-    "karma-coffee-preprocessor": "~0.1.0",
-    "karma-requirejs": "~0.2.0",
+    "karma-mocha": "~0.1.0",
     "karma-phantomjs-launcher": "~0.1.0",
-    "karma": "~0.12.8",
+    "karma-requirejs": "~0.2.0",
     "karma-safari-launcher": "~0.1.1",
-    "mocha": "~1.13.0",
-    "karma-mocha": "~0.1.0"
+    "karma-script-launcher": "~0.1.0",
+    "mocha": "~1.13.0"
   }
 }

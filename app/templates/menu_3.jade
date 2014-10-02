@@ -1,3 +1,6 @@
 .container
   .main-banner
-    h1 Menu 3
+    h1 Platforms
+    ul
+      each val in platforms
+        li= val.get("Name") 
