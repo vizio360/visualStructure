@@ -12,6 +12,13 @@ Login = Backbone.View.extend
     @$el.html template
     @el
 
+  activate: ->
+    @$el.removeClass "hide"
+
+  deactivate: ->
+    @$el.addClass "hide"
+
+  
   showSigninDialog: ->
     @signinDialogDelay = setTimeout =>
       @$('#signinDialog').modal('show')
@@ -33,6 +40,7 @@ Login = Backbone.View.extend
 
   signin: (evt) ->
     evt.preventDefault()
+    @hideErrorMessage()
     userModel = new user
                       username: @$(".login-email input").val(),
                       password: @$(".login-password input").val()
@@ -40,7 +48,7 @@ Login = Backbone.View.extend
       @showErrorMessage userModel.validationError
     else
       @showSigninDialog()
-      userModel.authenticate("http://localhost:3001", (status) => @authResult(status))
+      userModel.authenticate (status) => @authResult(status)
 
   authResult: (result) ->
     @hideSigninDialog()

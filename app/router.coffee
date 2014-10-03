@@ -1,4 +1,5 @@
 login = require 'views/login'
+home = require 'views/home'
 
 Router = Backbone.Router.extend
 
@@ -6,17 +7,22 @@ Router = Backbone.Router.extend
 
   loginPage: ->
     @login = new login
-      el: $('.root-view')
+      el: $('.login')
       router: @
     @login.on "success", =>
-      @navigate "home"
+      @login.deactivate()
+      @navigate "home", trigger: true
     @login.render()
 
   home: ->
     console.log "home"
+    @home = new home
+      el: $('.main-content')
+    @home.render()
 
   routes:
     ''            : 'loginPage'
-    'menu_1'      : 'home'
+    'login'       : 'loginPage'
+    'home'        : 'home'
 
 module.exports = Router

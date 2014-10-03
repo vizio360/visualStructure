@@ -8,19 +8,21 @@ basic = auth.basic
 app = express()
 
 app.use (req, res, next) ->
-  res.header "Access-Control-Allow-Methods", "GET,PUT,POST,DELETE,OPTIONS"
-  res.header "Access-Control-Allow-Headers", "Content-Type, Authorization, Content-Length, X-Requested-With"
-  res.header "Access-Control-Allow-Origin", "*"
-  if req.method == "OPTIONS"
-    res.status(200).end()
-  else
-    next()
+  setTimeout =>
+    res.header "Access-Control-Allow-Methods", "GET,PUT,POST,DELETE,OPTIONS"
+    res.header "Access-Control-Allow-Headers", "Content-Type, Authorization, Content-Length, X-Requested-With"
+    res.header "Access-Control-Allow-Origin", "*"
+    if req.method == "OPTIONS"
+      res.status(200).end()
+    else
+      next()
+  , 2000
 
 app.use auth.connect(basic)
 
 
 app.get "/", (req, res) ->
-  res.send 200
+  res.status(200).end()
 
 app.get "*", (req, res) ->
   url = req.url[1..]

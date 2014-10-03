@@ -1,7 +1,6 @@
 router = require 'router'
 theRouter = new router
 
-
 $(document).on 'click', 'a:not([data-bypass])', (evt) ->
   href =
     prop: $(@).prop('href')
