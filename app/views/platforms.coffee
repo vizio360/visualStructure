@@ -1,4 +1,4 @@
-template = require 'templates/home'
+template = require 'templates/platforms'
 Platforms = require 'collections/platforms'
 
 Menu = Backbone.View.extend
@@ -9,7 +9,6 @@ Menu = Backbone.View.extend
   	@listenToOnce @p, "sync", ->
   		@render()
 
-  	@p.url = 'http://test:test@localhost:3001/resource/platforms'
   	@p.fetch()
 
   render: () ->

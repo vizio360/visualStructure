@@ -1,5 +1,5 @@
 login = require 'views/login'
-home = require 'views/home'
+platformsView = require 'views/platforms'
 
 Router = Backbone.Router.extend
 
@@ -11,18 +11,19 @@ Router = Backbone.Router.extend
       router: @
     @login.on "success", =>
       @login.deactivate()
-      @navigate "home", trigger: true
+      @navigate "platforms", trigger: true
     @login.render()
 
-  home: ->
-    console.log "home"
-    @home = new home
+  platforms: ->
+    @platformsView = new platformsView
       el: $('.main-content')
-    @home.render()
+    @platformsView.render()
 
   routes:
-    ''            : 'loginPage'
-    'login'       : 'loginPage'
-    'home'        : 'home'
+    ''                  : 'loginPage'
+    'login'             : 'loginPage'
+    'platforms'         : 'platforms'
+    'platforms/:id'     : 'showPlatform'
+    '*EverythingElse'   : 'loginPage'
 
 module.exports = Router

@@ -1,6 +1,5 @@
 User = Backbone.Model.extend
-  url: "http://localhost:3001"
-  #url: "/api/"
+  url: "/api/resource/platforms"
 
   initialize: () ->
 
