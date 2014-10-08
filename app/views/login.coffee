@@ -1,7 +1,7 @@
 template = require 'templates/login'
-user = require 'models/user'
+UserSingleton = require 'models/user'
 
-Login = Backbone.View.extend
+class Login extends Backbone.View
 
   events:
     "submit": "signin"
@@ -18,7 +18,6 @@ Login = Backbone.View.extend
   deactivate: ->
     @$el.addClass "hide"
 
-  
   showSigninDialog: ->
     @signinDialogDelay = setTimeout =>
       @$('#signinDialog').modal('show')
@@ -41,20 +40,20 @@ Login = Backbone.View.extend
   signin: (evt) ->
     evt.preventDefault()
     @hideErrorMessage()
-    userModel = new user
-                      username: @$(".login-email input").val(),
-                      password: @$(".login-password input").val()
-    if not userModel.isValid()
-      @showErrorMessage userModel.validationError
+    UserSingleton.set
+      username: @$(".login-email input").val(),
+      password: @$(".login-password input").val()
+    if not UserSingleton.isValid()
+      @showErrorMessage UserSingleton.validationError
     else
       @showSigninDialog()
-      userModel.authenticate (status) => @authResult(status)
+      UserSingleton.authenticate (status) => @authResult(status)
 
   authResult: (result) ->
     @hideSigninDialog()
     if result is "success"
       @hideErrorMessage()
-      @trigger "success" 
+      @trigger "success"
     else
       @showErrorMessage "Wrong username and/or password"
 

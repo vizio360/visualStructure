@@ -1,20 +1,32 @@
 login = require 'views/login'
 platformsView = require 'views/platforms'
+PlatformsSingleton = require 'collections/platforms'
+UserSingleton = require 'models/user'
 
-Router = Backbone.Router.extend
+class Router extends Backbone.Router
 
   initialize: () ->
 
   loginPage: ->
+    if UserSingleton.loggedIn
+      return @navigate "platforms", trigger: true
     @login = new login
       el: $('.login')
       router: @
     @login.on "success", =>
       @login.deactivate()
+      @startPolling()
       @navigate "platforms", trigger: true
     @login.render()
 
-  platforms: ->
+  startPolling: ->
+    setInterval ->
+      PlatformsSingleton.fetch()
+    , 5000
+
+  platformsPage: ->
+    if not UserSingleton.loggedIn
+      return @navigate "login", trigger: true
     @platformsView = new platformsView
       el: $('.main-content')
     @platformsView.render()
@@ -22,7 +34,7 @@ Router = Backbone.Router.extend
   routes:
     ''                  : 'loginPage'
     'login'             : 'loginPage'
-    'platforms'         : 'platforms'
+    'platforms'         : 'platformsPage'
     'platforms/:id'     : 'showPlatform'
     '*EverythingElse'   : 'loginPage'
 

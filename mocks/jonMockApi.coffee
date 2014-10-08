@@ -26,7 +26,7 @@ app.get "/", (req, res) ->
 
 app.get "*", (req, res) ->
   url = req.url[1..]
-  parts = url.replace("/", "_")
+  parts = url.replace(/\//g, "_")
   data = fs.readFileSync "jonAPIdata/#{parts}.json", { encoding: 'utf8'}
   res.send data
 

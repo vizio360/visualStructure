@@ -1,18 +1,16 @@
 template = require 'templates/platforms'
-Platforms = require 'collections/platforms'
+PlatformsSingleton = require 'collections/platforms'
 
-Menu = Backbone.View.extend
+class Platforms extends Backbone.View
 
   initialize: () ->
 
-  	@p = new Platforms
-  	@listenToOnce @p, "sync", ->
-  		@render()
 
-  	@p.fetch()
+    @listenTo PlatformsSingleton, "sync", ->
+      @render()
 
   render: () ->
-    @$el.html template platforms: @p.models
+    @$el.html template platforms: PlatformsSingleton.models
     @el
 
-module.exports = Menu
+module.exports = Platforms

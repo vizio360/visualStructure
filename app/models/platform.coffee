@@ -1,6 +1,6 @@
-Platform  = Backbone.Model.extend
+class Platform extends Backbone.Model
 
-	sayHello: ->
-		console.log "hello"
+  sayHello: ->
+    console.log "hello"
 
 module.exports = Platform
