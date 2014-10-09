@@ -10,12 +10,24 @@ module.exports = (config) ->
     # frameworks to use
     frameworks: ['mocha']
 
+
+    preprocessors:
+      '**/*.coffee': ['coffee']
+
+    coffeePreprocessor:
+      options:
+        bare: true
+        sourceMap: false
+
+      transformPath: (path) ->
+        return path.replace(/\.coffee$/, '.js')
+
     # list of files / patterns to load in the browser
     files: [
-      'public/vendor.js'
-      'public/templates.js'
-      'public/app.js'
-      'test/*.test.coffee'
+      'public/js/vendor.js'
+      'public/js/templates.js'
+      'public/js/app.js'
+      'test/**/*.test.coffee'
     ]
 
     # list of files to exclude
