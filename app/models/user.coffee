@@ -1,4 +1,5 @@
 class User extends Backbone.Model
+  
   url: "/api/resource/platforms"
 
   initialize: () ->
