@@ -1,13 +1,10 @@
 expect = chai.expect
 should = chai.should()
 
-
 describe 'Platforms collection', ->
 
-  chai.Assertion.addMethod 'collection', (type) ->
-    new chai.Assertion(@_obj).to.be.instanceof(Backbone.Collection)
-
   platforms = null
+  expectedEndPointUrl = "/api/resource/platforms"
 
   beforeEach ->
     platforms = require('collections/platforms')
@@ -19,6 +16,11 @@ describe 'Platforms collection', ->
     expect(platforms).to.be.a.collection()
 
   it 'is a singleton', ->
-    expect(platforms).to.be.an "object"
-    other = require('collections/platforms')
-    platforms.should.deep.equal other
+    expect(platforms).to.be.a.Singleton('collections/platforms')
+
+  it 'has a url set', ->
+    platforms.url.should.equal expectedEndPointUrl
+
+  it 'has a model defined', ->
+    PlatformModel = require "models/platform"
+    platforms.model.should.deep.equal PlatformModel
