@@ -1,26 +1,24 @@
-expect = chai.expect
-should = chai.should()
-
 describe 'Platforms collection', ->
 
   platforms = null
   expectedEndPointUrl = "/api/resource/platforms"
 
   beforeEach ->
+    jasmine.addMatchers(customMatchers)
     platforms = require('collections/platforms')
 
   it 'is defined', ->
-    should.exist platforms
+    expect(platforms).toBeDefined()
 
   it 'is a collection', ->
-    expect(platforms).to.be.a.collection()
+    expect(platforms).toBeACollection()
 
   it 'is a singleton', ->
-    expect(platforms).to.be.a.Singleton('collections/platforms')
+    expect(platforms).toBeASingleton('collections/platforms')
 
   it 'has a url set', ->
-    platforms.url.should.equal expectedEndPointUrl
+    expect(platforms.url).toBe expectedEndPointUrl
 
   it 'has a model defined', ->
     PlatformModel = require "models/platform"
-    platforms.model.should.deep.equal PlatformModel
+    expect(platforms.model).toEqual PlatformModel

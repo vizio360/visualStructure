@@ -1,16 +1,14 @@
-expect = chai.expect
-should = chai.should()
-
 describe 'Platform model', ->
 
   Platform = null
 
   beforeEach ->
+    jasmine.addMatchers(customMatchers)
     Platform = require('models/platform')
 
   it 'is defined', ->
-    should.exist Platform
+    expect(Platform).toBeDefined()
 
   it 'is a model', ->
     platform = new Platform
-    expect(platform).to.be.a.model()
+    expect(platform).toBeAModel()

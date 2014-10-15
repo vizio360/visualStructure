@@ -8,7 +8,7 @@ module.exports = (config) ->
     basePath: ''
 
     # frameworks to use
-    frameworks: ['mocha']
+    frameworks: ['jasmine']
 
 
     preprocessors:
@@ -27,6 +27,9 @@ module.exports = (config) ->
       'public/js/vendor.js'
       'public/js/templates.js'
       'public/js/app.js'
+      'test/vendor/jquery.mockjax.js'
+      'test/testsSetup.coffee'
+      'test/matchers.coffee'
       'test/**/*.test.coffee'
     ]
 
