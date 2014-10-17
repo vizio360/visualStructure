@@ -3,28 +3,28 @@ UserSingleton = require 'models/user'
 
 class Login extends Backbone.View
 
+  signinDialogDelay: 500
+
   events:
     "submit": "signin"
-
-  initialize: (options) ->
 
   render: () ->
     @$el.html template
     @el
 
   activate: ->
-    @$el.removeClass "hide"
+    @$el.removeClass "hidden"
 
   deactivate: ->
-    @$el.addClass "hide"
+    @$el.addClass "hidden"
 
   showSigninDialog: ->
-    @signinDialogDelay = setTimeout =>
+    @signinDialogTimeout = setTimeout =>
       @$('#signinDialog').modal('show')
-    , 500
+    , @signinDialogDelay
 
   hideSigninDialog: ->
-    clearTimeout @signinDialogDelay
+    clearTimeout @signinDialogTimeout
     @$('#signinDialog').modal('hide')
 
   showErrorMessage: (msg) ->

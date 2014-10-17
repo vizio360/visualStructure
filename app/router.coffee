@@ -5,14 +5,11 @@ UserSingleton = require 'models/user'
 
 class Router extends Backbone.Router
 
-  initialize: () ->
-
   loginPage: ->
     if UserSingleton.loggedIn
       return @navigate "platforms", trigger: true
     @login = new login
       el: $('.login')
-      router: @
     @login.on "success", =>
       @login.deactivate()
       @startPolling()
