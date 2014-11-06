@@ -1,13 +1,11 @@
 {
-  "name": "brunch-dutch-baby",
+  "name": "jon-v",
   "version": "0.1.0",
   "main": "public/app.js",
   "dependencies": {
-    "bootstrap": "3.2.0",
-    "auto-reload-brunch": "~1.6.5",
-    "backbone": "~1.0.0",
-    "underscore": "~1.5.1",
-    "chai": "~1.8.0"
+    "fabric": "~1.4.12",
+    "backbone": "~1.1.2",
+    "bootstrap": "~3.3.0"
   },
   "overrides": {
     "underscore": {
@@ -30,5 +28,19 @@
         "dist/css/bootstrap.css"
       ]
     }
+  },
+  "homepage": "https://github.com/vizio360/visualStructure",
+  "authors": [
+    "Simone Vicentini <simone.vicentini@gmail.com>"
+  ],
+  "description": "Visualization tool for JON infrastructures",
+  "keywords": [
+    "JON"
+  ],
+  "license": "MIT",
+  "private": true,
+  "resolutions": {
+    "backbone": "~1.1.2",
+    "bootstrap": "~3.3.0"
   }
 }
