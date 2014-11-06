@@ -1,14 +1,12 @@
 template = require 'templates/navbar'
-menu_1 = require 'views/menu_1'
-menu_2 = require 'views/menu_2'
-menu_3 = require 'views/menu_3'
 
-NavBar = Backbone.View.extend
-
+class NavBar extends Backbone.View
+  tagName: "nav"
+  className: "navbar navbar-default navbar-fixed-top"
+  attributes:
+    role: "navigation"
+  ###
   initialize: (options) ->
-    @menu_1_view = new menu_1()
-    @menu_2_view = new menu_2()
-    @menu_3_view = new menu_3()
 
     options.router.on 'route:menu_1', () =>
       @page = 'menu_1'
@@ -22,11 +20,11 @@ NavBar = Backbone.View.extend
       @page = 'menu_3'
       @render()
 
+  ###
   render: () ->
     if not @page then @page = Backbone.history.fragment
     if @page is '' then @page = 'menu_1'
     @$el.html template page: @page
-    @["#{@page}_view"].setElement(@$('.content-body')).render()
     @el
 
 module.exports = NavBar

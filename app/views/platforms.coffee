@@ -3,6 +3,8 @@ PlatformsSingleton = require 'collections/platforms'
 
 class Platforms extends Backbone.View
 
+  id: "platforms"
+
   initialize: () ->
     @listenTo PlatformsSingleton, "sync", ->
       @render()
