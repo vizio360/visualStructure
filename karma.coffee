@@ -30,6 +30,7 @@ module.exports = (config) ->
       'test/vendor/jquery.mockjax.js'
       'test/testsSetup.coffee'
       'test/matchers.coffee'
+      'test/fixtures/*.coffee'
       'test/**/*.test.coffee'
     ]
 
