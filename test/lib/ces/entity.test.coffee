@@ -32,7 +32,14 @@ describe "Entity", ->
   it "always returns the same unique id for an entity", ->
     expect(entity.getId()).toBe(entity.getId())
 
-  it "can add components", ->
+  it "can add simple component", ->
+    component =
+      name: "hello"
+
+    entity.addComponent component
+    expect(entity.name).toEqual "hello"
+
+  it "can add component", ->
     component =
       size:
         width: 100
@@ -41,6 +48,19 @@ describe "Entity", ->
     entity.addComponent component
     expect(entity.size.width).toBe 100
     expect(entity.size.height).toBe 200
+
+  it "can add multiple components at once", ->
+    components =
+      size:
+        width: 100
+        height: 200
+      aspect:
+        angle: 67
+
+    entity.addComponent components
+    expect(entity.size.width).toBe 100
+    expect(entity.size.height).toBe 200
+    expect(entity.aspect.angle).toBe 67
 
   it "can remove components", ->
     component =
