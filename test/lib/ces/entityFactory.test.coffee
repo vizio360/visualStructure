@@ -17,6 +17,10 @@ describe "Entity Factory", ->
     entity = EntityFactory.createEntity()
     expect(entity).toEqual(jasmine.any(EntityClass))
 
+  it "can create a new entity with a specific id", ->
+    entity = EntityFactory.createEntity("myId")
+    expect(entity.getId()).toEqual("myId")
+
   it "can retrieve all entities with a specific component", ->
     entity = EntityFactory.createEntity()
     entity.addComponent position
@@ -32,3 +36,23 @@ describe "Entity Factory", ->
 
   it "raises an exception if no components are passed to getEntitiesWith", ->
     expect( -> EntityFactory.getEntitiesWith()).toThrow()
+
+  it "can retreive all the entities", ->
+    expect(EntityFactory.all().length).toBe 0
+    entity = EntityFactory.createEntity()
+    entity.addComponent position
+    entity.addComponent size
+    entity2 = EntityFactory.createEntity()
+    entity2.addComponent size
+    expect(EntityFactory.all().length).toBe 2
+
+  it "is possible to delete all the entities", ->
+    entity = EntityFactory.createEntity()
+    entity.addComponent position
+    entity.addComponent size
+    entity2 = EntityFactory.createEntity()
+    entity2.addComponent size
+    expect(EntityFactory.all().length).toBe 2
+    EntityFactory.deleteAll()
+    expect(EntityFactory.all().length).toBe 0
+

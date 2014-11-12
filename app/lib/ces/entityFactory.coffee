@@ -2,11 +2,14 @@ Entity = require "lib/ces/entity"
 
 class EntityFactory
 
-  constructor: ->
+  setupEntityList: ->
     @entityList = {}
 
-  createEntity: ->
-    new Entity(@)
+  constructor: ->
+    @setupEntityList()
+
+  createEntity: (id) ->
+    new Entity(@, id)
 
   trackEntity: (componentName, entity) ->
     @entityList[componentName] ?= []
@@ -22,6 +25,15 @@ class EntityFactory
     for component in components[1..]
       result = _.intersection result, @entityList[component]
     result
+
+  all: ->
+    allEntities = []
+    _.each @entityList, (value, key, list) ->
+      allEntities = _.union allEntities, value
+    allEntities
+
+  deleteAll: ->
+    @setupEntityList()
 
 module.exports =
   Singleton: new EntityFactory
