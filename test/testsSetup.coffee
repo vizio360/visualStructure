@@ -1,0 +1,1 @@
+$.mockjaxSettings.logging = false

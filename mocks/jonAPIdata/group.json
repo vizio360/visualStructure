@@ -1,0 +1,98 @@
+[
+  {
+    "id": 10931,
+    "name": "QA",
+    "resourceTypeId": null,
+    "recursive": true,
+    "category": "COMPATIBLE",
+    "dynaGroupDefinitionId": 0,
+    "explicitCount": 2,
+    "implicitCount": 2919,
+    "links": [
+      {
+        "edit": {
+          "href": "http://localhost:7080/rest/group/10931"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/group/10931"
+        }
+      },
+      {
+        "metricDefinitions": {
+          "href": "http://localhost:7080/rest/group/10931/metricDefinitions"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#ResourceGroup/10931"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10971,
+    "name": "UAT",
+    "resourceTypeId": null,
+    "recursive": true,
+    "category": "COMPATIBLE",
+    "dynaGroupDefinitionId": 0,
+    "explicitCount": 2,
+    "implicitCount": 1008,
+    "links": [
+      {
+        "edit": {
+          "href": "http://localhost:7080/rest/group/10971"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/group/10971"
+        }
+      },
+      {
+        "metricDefinitions": {
+          "href": "http://localhost:7080/rest/group/10971/metricDefinitions"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#ResourceGroup/10971"
+        }
+      }
+    ]
+  },
+  {
+    "id": 10991,
+    "name": "PROD",
+    "resourceTypeId": null,
+    "recursive": true,
+    "category": "COMPATIBLE",
+    "dynaGroupDefinitionId": 0,
+    "explicitCount": 3,
+    "implicitCount": 2564,
+    "links": [
+      {
+        "edit": {
+          "href": "http://localhost:7080/rest/group/10991"
+        }
+      },
+      {
+        "self": {
+          "href": "http://localhost:7080/rest/group/10991"
+        }
+      },
+      {
+        "metricDefinitions": {
+          "href": "http://localhost:7080/rest/group/10991/metricDefinitions"
+        }
+      },
+      {
+        "coregui": {
+          "href": "http://localhost:7080/coregui/#ResourceGroup/10991"
+        }
+      }
+    ]
+  }
+]

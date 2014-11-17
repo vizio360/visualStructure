@@ -2,6 +2,8 @@ template = require 'templates/menu_1'
 
 Menu = Backbone.View.extend
 
+  id: "menu1"
+
   initialize: () ->
 
   render: () ->

@@ -8,14 +8,30 @@ module.exports = (config) ->
     basePath: ''
 
     # frameworks to use
-    frameworks: ['mocha']
+    frameworks: ['jasmine']
+
+
+    preprocessors:
+      '**/*.coffee': ['coffee']
+
+    coffeePreprocessor:
+      options:
+        bare: true
+        sourceMap: false
+
+      transformPath: (path) ->
+        return path.replace(/\.coffee$/, '.js')
 
     # list of files / patterns to load in the browser
     files: [
-      'public/vendor.js'
-      'public/templates.js'
-      'public/app.js'
-      'test/*.test.coffee'
+      'public/js/vendor.js'
+      'public/js/templates.js'
+      'public/js/app.js'
+      'test/vendor/jquery.mockjax.js'
+      'test/testsSetup.coffee'
+      'test/matchers.coffee'
+      'test/fixtures/*.coffee'
+      'test/**/*.test.coffee'
     ]
 
     # list of files to exclude
@@ -48,7 +64,7 @@ module.exports = (config) ->
     # - Safari (only Mac)
     # - PhantomJS
     # - IE (only Windows)
-    browsers: ['Chrome', 'Firefox', 'Safari', 'PhantomJS']
+    browsers: ['Chrome', 'PhantomJS']
 
     # If browser does not capture in given timeout [ms], kill it
     captureTimeout: 60000

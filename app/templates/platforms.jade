@@ -1,0 +1,21 @@
+.container
+  .main-banner
+    h1 Platforms
+  table.table.table-hover.table-striped
+    thead
+      tr
+        th Availability
+        th ID
+        th Name
+        th Description
+        th Plugin Name
+    tbody
+      each val in platforms
+        - var availability = val.get("availability")
+        tr(class=availability === "DOWN" ? "danger" : "")
+          td
+            span(class=availability === "UP" ? "glyphicon glyphicon-thumbs-up" : "glyphicon glyphicon-thumbs-down")
+          td= val.get("resourceId")
+          td= val.get("resourceName")
+          td= val.get("description")
+          td= val.get("pluginName")
