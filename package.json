@@ -1,8 +1,8 @@
 {
-  "name": "brunch-dutch-baby",
-  "description": "Brunch skeleton with backbone 1.0, bootstrap 3, coffeescript, stylus and jade",
-  "author": "Jeff Kingyens",
-  "version": "0.1.0",
+  "name": "jon-v",
+  "description": "JON Visualizer",
+  "author": "Simone Vicentini",
+  "version": "0.0.1",
   "scripts": {
     "start": "./node_modules/.bin/brunch watch --server",
     "test": "./node_modules/.bin/karma start karma.coffee"
@@ -31,11 +31,9 @@
     "karma-firefox-launcher": "~0.1.0",
     "karma-html2js-preprocessor": "~0.1.0",
     "karma-jasmine": "^0.2.2",
-    "karma-mocha": "~0.1.0",
     "karma-phantomjs-launcher": "~0.1.0",
     "karma-requirejs": "~0.2.0",
     "karma-safari-launcher": "~0.1.1",
-    "karma-script-launcher": "~0.1.0",
-    "mocha": "~1.13.0"
+    "karma-script-launcher": "~0.1.0"
   }
 }
